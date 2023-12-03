@@ -1,0 +1,39 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --pink: hsl(275, 100%, 97%);
+    --purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+}
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+/* Elements */
+
+
+/* Classes */
+
+
+
+
+
