@@ -18,22 +18,69 @@
 h1 {
     font-weight: 700;
     font-size: 32px;
+    color: var(--dark-purple);
 }
 
 h2 {
     font-weight: 600;
+    color: var(--dark-purple);
 }
 
 p {
     font-weight: 400;
+    color: var(--purple);
 }
 
+
+
 /* Elements */
+main {
+    background-color: var(--pink);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* Classes */
+.image-background {
+    content: url("assets/images/background-pattern-mobile.svg");
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    background-color: white;
+    width: 70%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
 
 
+
+/* Desktop view*/
+@media only screen and (min-width: 600px) {
+    .image-background {
+        content: url("assets/images/background-pattern-desktop.svg");
+
+    }
+
+    .accordion {
+        width: 80%;;
+    }
+}
 
 
 
