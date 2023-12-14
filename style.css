@@ -2,7 +2,7 @@
     --white: hsl(0, 0%, 100%);
     --pink: hsl(275, 100%, 97%);
     --purple: hsl(292, 16%, 49%);
-    --dark-purple: hsl(292, 42%, 14%);
+    --dark-purple: hsl(292, 42%, 44%);;
 }
 
 /* Typography */
@@ -18,12 +18,11 @@
 h1 {
     font-weight: 700;
     font-size: 32px;
-    color: var(--dark-purple);
+
 }
 
 h2 {
     font-weight: 600;
-    color: var(--dark-purple);
 }
 
 p {
@@ -95,6 +94,10 @@ main {
     align-items: center;
     cursor: pointer;
     margin: 17px 0;
+}
+
+.accordion-header:hover {
+    color: var(--dark-purple)
 }
 
 .text-icon::after {
