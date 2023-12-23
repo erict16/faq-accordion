@@ -4,6 +4,7 @@
     --purple: hsl(292, 16%, 49%);
     --dark-purple: hsl(292, 42%, 44%);;
 }
+/* Mobile first design */
 
 /* Typography */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
@@ -110,7 +111,7 @@ main {
 @media only screen and (min-width: 600px) {
     .image-background {
         content: url("assets/images/background-pattern-desktop.svg");
-
+        height: 35vh;
     }
 
     .accordion {
