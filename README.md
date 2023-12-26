@@ -31,7 +31,7 @@
 - [x] Create a card component that matches the given design.
 - [x] Use HTML to create the basic structure.
 - [x] Use CSS to style the card.
-- [ ] Use Javascript to manipulate interaction.
+- [x] Use Javascript to manipulate interaction.
 
 ## Built With
 
