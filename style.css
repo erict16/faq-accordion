@@ -34,6 +34,7 @@ p {
 
 
 
+
 /* Elements */
 main {
     background-color: var(--pink);
@@ -84,7 +85,7 @@ main {
 }
 
 .accordion-content {
-    margin: 8px 0 10px 0;
+    margin: 0 0 15px 0;
     max-width: 90%;
     display: none;
 }
@@ -101,10 +102,10 @@ main {
     color: var(--dark-purple)
 }
 
-.text-icon::after {
-    content: url("assets/images/icon-plus.svg");
-    margin-left: 30px;
-}
+/*.text-icon::after {*/
+/*    content: url("assets/images/icon-plus.svg");*/
+/*    margin-left: 20px;*/
+/*}*/
 
 
 /* Desktop view*/
