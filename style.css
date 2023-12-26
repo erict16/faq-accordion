@@ -88,6 +88,7 @@ main {
     margin: 0 0 15px 0;
     max-width: 90%;
     display: none;
+    transition: display 0.3s ease;
 }
 
 .accordion-header {
@@ -102,10 +103,10 @@ main {
     color: var(--dark-purple)
 }
 
-/*.text-icon::after {*/
-/*    content: url("assets/images/icon-plus.svg");*/
-/*    margin-left: 20px;*/
-/*}*/
+.text-icon {
+    transition: content 0.3s ease;
+    margin-left: 10px;
+}
 
 
 /* Desktop view*/
